@@ -11,7 +11,7 @@ namespace ConsoleSerilogNetCore
     {
         public static void Main(string[] args)
         {
-            Log.Logger = GetLogger();
+            SetStaticLogger();
 
             try
             {
@@ -50,12 +50,13 @@ namespace ConsoleSerilogNetCore
             return configurationBuilder;
         }
 
-        public static ILogger GetLogger()
+        public static void SetStaticLogger()
         {
-            return new LoggerConfiguration()
+            var logger = new LoggerConfiguration()
                 .ReadFrom.Configuration(GetConfiguration())
-                .WriteTo.Console()
                 .CreateLogger();
+
+            Log.Logger = logger;
         }
     }
 }
