@@ -5,7 +5,7 @@ using Serilog;
 using System;
 using System.IO;
 
-namespace WebAppSerilogNetCore
+namespace WebAppSerilogAspNetCore
 {
     public class Program
     {

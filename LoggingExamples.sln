@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleSerilogNetCore", "ConsoleSerilogNetCore\ConsoleSerilogNetCore.csproj", "{56E1BFCB-FB89-4392-8456-8F45D5519889}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppSerilogNetCore", "WebAppSerilogNetCore\WebAppSerilogNetCore.csproj", "{A2A7F428-5F3F-4875-B5EB-13EA931C863C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppSerilogAspNetCore", "WebAppSerilogNetCore\WebAppSerilogAspNetCore.csproj", "{A2A7F428-5F3F-4875-B5EB-13EA931C863C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

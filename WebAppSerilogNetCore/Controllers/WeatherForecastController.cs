@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace WebAppSerilogNetCore.Controllers
+namespace WebAppSerilogAspNetCore.Controllers
 {
     [ApiController]
     [Route("[controller]")]

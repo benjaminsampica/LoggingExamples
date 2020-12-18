@@ -1,6 +1,6 @@
 using System;
 
-namespace WebAppSerilogNetCore
+namespace WebAppSerilogAspNetCore
 {
     public class WeatherForecast
     {

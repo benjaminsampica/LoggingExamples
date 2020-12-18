@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
-namespace WebAppSerilogNetCore
+namespace WebAppSerilogAspNetCore
 {
     public class Startup
     {
