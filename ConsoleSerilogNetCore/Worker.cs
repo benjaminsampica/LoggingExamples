@@ -19,7 +19,7 @@ namespace ConsoleSerilogNetCore
         {
             while (!stoppingToken.IsCancellationRequested)
             {
-                //using(_logger.BeginScope("ExtraProperties"))
+                //using (_logger.BeginScope("ExtraProperties"))
                 //{
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
                 _logger.LogDebug("Worker running at: {time}", DateTimeOffset.Now);
